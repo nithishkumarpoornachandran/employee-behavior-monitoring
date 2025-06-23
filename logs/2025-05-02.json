@@ -1,0 +1,522 @@
+[
+    {
+        "timestamp": "2025-05-02 11:35:55",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:36:05",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:36:16",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:36:26",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:36:36",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:36:46",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:36:57",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:37:07",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:42:32",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:43:05",
+        "class": "sleeping",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:43:15",
+        "class": "sleeping",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:43:25",
+        "class": "sleeping",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:43:35",
+        "class": "sleeping",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:49:32",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:49:42",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:49:52",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:50:02",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:50:50",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:51:00",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:51:10",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:51:58",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:52:08",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:53:53",
+        "class": "sleeping",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:54:03",
+        "class": "sleeping",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:54:13",
+        "class": "sleeping",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:54:49",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:54:59",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:55:09",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:56:16",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:56:26",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:56:36",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:56:46",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:56:56",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:57:06",
+        "class": "not_working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 11:57:17",
+        "class": "mobile",
+        "track_id": 3
+    },
+    {
+        "timestamp": "2025-05-02 11:57:28",
+        "class": "mobile",
+        "track_id": 3
+    },
+    {
+        "timestamp": "2025-05-02 11:57:32",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 11:57:42",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 11:57:52",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 11:58:07",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 11:58:35",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:38:17",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:38:27",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:38:37",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:38:47",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:38:57",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:39:07",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:39:17",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:39:28",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:39:38",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:39:43",
+        "class": "mobile",
+        "track_id": 3
+    },
+    {
+        "timestamp": "2025-05-02 15:40:52",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:41:02",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:41:12",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:41:23",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:41:33",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:41:43",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:41:53",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:42:04",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:42:14",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:42:24",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:42:35",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:42:45",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:42:55",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:43:05",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:43:16",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:43:22",
+        "class": "mobile",
+        "track_id": 3
+    },
+    {
+        "timestamp": "2025-05-02 15:43:33",
+        "class": "mobile",
+        "track_id": 3
+    },
+    {
+        "timestamp": "2025-05-02 15:43:44",
+        "class": "mobile",
+        "track_id": 3
+    },
+    {
+        "timestamp": "2025-05-02 15:43:56",
+        "class": "mobile",
+        "track_id": 3
+    },
+    {
+        "timestamp": "2025-05-02 15:44:07",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 15:44:18",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 15:52:22",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:52:32",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:52:43",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:52:53",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:53:04",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:53:14",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:53:25",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:53:35",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:53:45",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:53:55",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:54:05",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:54:15",
+        "class": "working",
+        "track_id": 1
+    },
+    {
+        "timestamp": "2025-05-02 15:54:25",
+        "class": "mobile",
+        "track_id": 3
+    },
+    {
+        "timestamp": "2025-05-02 15:54:38",
+        "class": "mobile",
+        "track_id": 3
+    },
+    {
+        "timestamp": "2025-05-02 15:54:43",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 15:54:53",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 15:55:05",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 15:55:15",
+        "class": "mobile",
+        "track_id": 11
+    },
+    {
+        "timestamp": "2025-05-02 15:55:21",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:55:31",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:55:41",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:55:51",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:56:02",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:56:12",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:56:23",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:56:33",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:56:43",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:56:53",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:57:04",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:57:14",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:57:25",
+        "class": "sleeping",
+        "track_id": 17
+    },
+    {
+        "timestamp": "2025-05-02 15:57:35",
+        "class": "sleeping",
+        "track_id": 17
+    }
+]
