@@ -1,0 +1,44 @@
+[
+    {
+        "timestamp": "2025-01-31 23:09:27",
+        "person": "none",
+        "class": "person_absent",
+        "track_id": null
+    },
+    {
+        "timestamp": "2025-01-31 23:09:42",
+        "person": "none",
+        "class": "person_absent",
+        "track_id": null
+    },
+    {
+        "timestamp": "2025-01-31 23:10:07",
+        "person": "none",
+        "class": "person_absent",
+        "track_id": null
+    },
+    {
+        "timestamp": "2025-01-31 23:25:35",
+        "person": "none",
+        "class": "person_absent",
+        "track_id": null
+    },
+    {
+        "timestamp": "2025-01-31 23:25:43",
+        "person": "none",
+        "class": "person_absent",
+        "track_id": null
+    },
+    {
+        "timestamp": "2025-01-31 23:27:46",
+        "person": "none",
+        "class": "person_absent",
+        "track_id": null
+    },
+    {
+        "timestamp": "2025-01-31 23:29:09",
+        "person": "none",
+        "class": "person_absent",
+        "track_id": null
+    }
+]

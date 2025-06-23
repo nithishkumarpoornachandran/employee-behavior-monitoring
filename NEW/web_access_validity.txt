@@ -1,0 +1,12 @@
+Web Access Details:
+
+- The application runs locally using Flask.
+- Access URL: http://192.168.154.47:8080
+- No external hosting (cloud or domain) is used.
+- No platforms like Blynk or Thingspeak are used.
+- WhatsApp alert functionality is integrated using Twilio Free Tier API (no hosting credentials required).
+- Since the application is fully offline/local, there is no expiration or external access limit.
+
+Note:
+- The system ensures data privacy as everything runs locally.
+- If needed, the app can be deployed to cloud with minor configuration changes.

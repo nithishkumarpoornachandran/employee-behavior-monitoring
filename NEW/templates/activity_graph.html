@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity Graph</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            margin: 0;
+            padding: 20px;
+            background-color: #fafafa;
+            color: #333;
+        }
+        .h {
+            color: #2f4f4f;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #2c7be5;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .graph-container {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .graph-container a {
+            color: #2f4f4f;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .graph {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .download-btn {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="h"><h1>Employee Behavior Monitoring System</h1></div>
+    <h3>Select Date to View Activity Graph</h3>
+    <form action="/activity_graph" method="POST">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <button type="submit">Show Activity</button>
+    </form>
+
+    {% if selected_date %}
+        <h2>Activity on {{ selected_date }}</h2>
+        {% if activity_data is mapping %}
+            <div class="graph-container">
+                {% for person, graph_data in activity_data.items() %}
+                    <div class="graph">
+                        <h3>{{ person }}</h3>
+                        <img src="data:image/png;base64,{{ graph_data }}" alt="Graph for {{ person }}">
+                    </div>
+                {% endfor %}
+                <form action="/download_pdf" method="POST">
+                    <input type="hidden" name="date" value="{{ selected_date }}">
+                    <button class="download-btn">Download PDF</button>
+                    {% if success %}
+                <div class="alert alert-success">
+                    {{ success }}
+                </div>
+                {% endif %}
+
+                {% if error %}
+                <div class="alert alert-danger">
+                    {{ error }}
+                </div>
+                {% endif %}
+                </form>
+                <form method="POST" action="{{ url_for('activity_graph') }}">
+                    <button type="submit" name="weekly_report" class="btn btn-primary">Send 7-Day Report</button>
+                </form>
+                
+                <a href="{{ url_for('index') }}">Back to Dashboard</a>
+            </div>
+        {% elif error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endif %}
+    {% endif %}
+
+    <div class="footer">
+        © 2025 Employee Behavior Monitoring System
+    </div>
+</body>
+</html>
